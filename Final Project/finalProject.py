@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Dec  7 13:34:11 2025
-
 @author: colecurtis.22
 """
 import pygame
@@ -46,7 +44,7 @@ acceptClicks = True
 
 surface4 = pygame.Surface((600, 400))
 surface4.fill(white)
-winText = font.render("You win! Congrats! Click anywhere to quit", True, black)
+winText = font.render("You win! Click anywhere to quit", True, black)
 surface4.blit(winText, (50, 50))
 
 while keepGoing:
